@@ -4,7 +4,10 @@ Terraform module to provision EKS cluster autoscaler
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | 1.7.5 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | 4.57.1 |
 
 ## Providers
 
@@ -22,8 +25,8 @@ No requirements.
 
 | Name | Type |
 |------|------|
-| [aws_eks_cluster.this](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/eks_cluster) | data source |
-| [aws_eks_cluster_auth.this](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/eks_cluster_auth) | data source |
+| [aws_eks_cluster.this](https://registry.terraform.io/providers/hashicorp/aws/4.57.1/docs/data-sources/eks_cluster) | data source |
+| [aws_eks_cluster_auth.this](https://registry.terraform.io/providers/hashicorp/aws/4.57.1/docs/data-sources/eks_cluster_auth) | data source |
 
 ## Inputs
 
