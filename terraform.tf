@@ -7,15 +7,15 @@ terraform {
     }
     utils = {
       version = "1.7.1"
-      source = "cloudposse/utils"
+      source  = "cloudposse/utils"
     }
     helm = {
       version = "2.9.0"
-      source = "hashicorp/helm"
+      source  = "hashicorp/helm"
     }
     kubernetes = {
       version = "2.18.1"
-      source = "hashicorp/kubernetes"
+      source  = "hashicorp/kubernetes"
     }
   }
 }
