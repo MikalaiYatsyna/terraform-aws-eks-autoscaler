@@ -10,7 +10,7 @@ terraform {
       source  = "cloudposse/utils"
     }
     helm = {
-      version = "2.9.0"
+      version = "2.12.1"
       source  = "hashicorp/helm"
     }
     kubernetes = {
