@@ -6,7 +6,7 @@ terraform {
       source  = "hashicorp/aws"
     }
     utils = {
-      version = "1.18.0"
+      version = "1.19.2"
       source  = "cloudposse/utils"
     }
     helm = {
