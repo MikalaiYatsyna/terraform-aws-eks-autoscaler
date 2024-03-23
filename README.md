@@ -2,6 +2,7 @@
 Terraform module to provision EKS cluster autoscaler
 
 <!-- BEGIN_TF_DOCS -->
+  
 ## Requirements
 
 | Name | Version |
@@ -11,21 +12,15 @@ Terraform module to provision EKS cluster autoscaler
 | <a name="requirement_helm"></a> [helm](#requirement\_helm) | 2.12.1 |
 | <a name="requirement_kubernetes"></a> [kubernetes](#requirement\_kubernetes) | 2.27.0 |
 | <a name="requirement_utils"></a> [utils](#requirement\_utils) | 1.18.0 |
-
 ## Providers
 
 No providers.
-
 ## Modules
 
 | Name | Source | Version |
 |------|--------|---------|
 | <a name="module_cluster_autoscaler"></a> [cluster\_autoscaler](#module\_cluster\_autoscaler) | lablabs/eks-cluster-autoscaler/aws | 2.2.0 |
-
-## Resources
-
-No resources.
-
+ 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
@@ -38,7 +33,6 @@ No resources.
 | <a name="input_k8s_exec_args"></a> [k8s\_exec\_args](#input\_k8s\_exec\_args) | Args for Kubernetes provider exec plugin. Example command ['eks', 'get-token', '--cluster-name', '{clusterName}}'] | `list(string)` | n/a | yes |
 | <a name="input_k8s_exec_command"></a> [k8s\_exec\_command](#input\_k8s\_exec\_command) | Command name for Kubernetes provider exec plugin. Example - 'aws | `string` | n/a | yes |
 | <a name="input_namespace"></a> [namespace](#input\_namespace) | Namespace for Autoscaler release | `string` | n/a | yes |
-
 ## Outputs
 
 No outputs.
