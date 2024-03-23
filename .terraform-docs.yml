@@ -19,7 +19,7 @@ content: |-
   {{ .Providers }}
   {{ .Outputs }}
   {{ .Inputs }}
-  {{ if .Modules
+  {{ if .Modules }}
   {{ .Modules}}
   {{- end }}
   {{ if .Resources }}
