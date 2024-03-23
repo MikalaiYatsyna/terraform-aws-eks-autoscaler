@@ -17,10 +17,12 @@ content: |-
   {{ .Header }}  
   {{ .Requirements }}
   {{ .Providers }}
-  {{ .Outputs }}
-  {{ .Inputs }}
   {{ .Modules  }}
-  {{ .Resources }}
+  {{ range .Module.Resources }}
+  - {{ .GetMode }}.{{ .Spec }} ({{ .Position.Filename }}#{{ .Position.Line }})
+  {{- end }} 
+  {{ .Inputs }}
+  {{ .Outputs }}
 
 output:
   file: README.md
