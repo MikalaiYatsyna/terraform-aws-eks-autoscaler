@@ -15,6 +15,7 @@ sections:
 
 content: |-
   {{ .Header }}  
+  {{ .Requirements }}
   {{ .Providers }}
   {{ .Outputs }}
   {{ .Inputs }}
