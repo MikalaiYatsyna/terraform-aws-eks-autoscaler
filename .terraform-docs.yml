@@ -19,15 +19,8 @@ content: |-
   {{ .Providers }}
   {{ .Outputs }}
   {{ .Inputs }}
-  {{ if .Modules }}
-  {{ .Modules}}
-  {{- end }}
-  {{ if .Resources }}
-  ## Resources
-  {{ range .Resources }}
-  - {{ .GetMode }}.{{ .Spec }} ({{ .Position.Filename }}#{{ .Position.Line }})
-  {{- end }}
-  {{- end }}
+  {{ .Modules  }}
+  {{ .Resources }}
 
 output:
   file: README.md
