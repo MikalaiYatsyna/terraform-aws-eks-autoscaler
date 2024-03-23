@@ -15,9 +15,12 @@ Terraform module to provision EKS cluster autoscaler
 ## Providers
 
 No providers.
-## Outputs
+## Modules
 
-No outputs.
+| Name | Source | Version |
+|------|--------|---------|
+| <a name="module_cluster_autoscaler"></a> [cluster\_autoscaler](#module\_cluster\_autoscaler) | lablabs/eks-cluster-autoscaler/aws | 2.2.0 |
+ 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
@@ -30,12 +33,7 @@ No outputs.
 | <a name="input_k8s_exec_args"></a> [k8s\_exec\_args](#input\_k8s\_exec\_args) | Args for Kubernetes provider exec plugin. Example command ['eks', 'get-token', '--cluster-name', '{clusterName}}'] | `list(string)` | n/a | yes |
 | <a name="input_k8s_exec_command"></a> [k8s\_exec\_command](#input\_k8s\_exec\_command) | Command name for Kubernetes provider exec plugin. Example - 'aws | `string` | n/a | yes |
 | <a name="input_namespace"></a> [namespace](#input\_namespace) | Namespace for Autoscaler release | `string` | n/a | yes |
-## Modules
+## Outputs
 
-| Name | Source | Version |
-|------|--------|---------|
-| <a name="module_cluster_autoscaler"></a> [cluster\_autoscaler](#module\_cluster\_autoscaler) | lablabs/eks-cluster-autoscaler/aws | 2.2.0 |
-## Resources
-
-No resources.
+No outputs.
 <!-- END_TF_DOCS -->
