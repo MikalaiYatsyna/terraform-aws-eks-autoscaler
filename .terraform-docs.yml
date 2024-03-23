@@ -24,7 +24,7 @@ content: |-
   {{- end }}
   {{ if .Resources }}
   ## Resources
-  {{ range Resources }}
+  {{ range .Resources }}
   - {{ .GetMode }}.{{ .Spec }} ({{ .Position.Filename }}#{{ .Position.Line }})
   {{- end }}
   {{- end }}
