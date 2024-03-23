@@ -20,7 +20,9 @@ No providers.
 | Name | Source | Version |
 |------|--------|---------|
 | <a name="module_cluster_autoscaler"></a> [cluster\_autoscaler](#module\_cluster\_autoscaler) | lablabs/eks-cluster-autoscaler/aws | 2.2.0 |
- 
+## Resources
+
+No resources.
 ## Inputs
 
 | Name | Description | Type | Default | Required |
