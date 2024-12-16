@@ -9,7 +9,7 @@ Terraform module to provision EKS cluster autoscaler
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | 1.10.2 |
 | <a name="requirement_aws"></a> [aws](#requirement\_aws) | 5.81.0 |
-| <a name="requirement_helm"></a> [helm](#requirement\_helm) | 2.12.1 |
+| <a name="requirement_helm"></a> [helm](#requirement\_helm) | 2.16.1 |
 | <a name="requirement_kubernetes"></a> [kubernetes](#requirement\_kubernetes) | 2.35.0 |
 | <a name="requirement_utils"></a> [utils](#requirement\_utils) | 1.27.0 |
 ## Providers
